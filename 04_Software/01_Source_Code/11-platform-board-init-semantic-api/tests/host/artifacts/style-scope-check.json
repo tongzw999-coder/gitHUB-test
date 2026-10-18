@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "changed_c_h_files": [
+    "01_App/app_boot/app_boot.c",
+    "01_App/app_boot/app_boot.h",
+    "03_Config/platform_mcu_config.h",
+    "03_Platform/platform_bsp/board_control.h",
+    "04_Impl/impl_board/board_control.c",
+    "04_Impl/impl_board/board_resource_config.c",
+    "04_Impl/impl_mcu/stm32f411_plat_gpio.c",
+    "tests/host/fakes/stm32f4xx_hal.h",
+    "tests/host/test_app_boot.c",
+    "tests/host/test_board_control.c",
+    "tests/host/test_board_validation.c",
+    "tests/host/test_mcu_gpio.c"
+  ],
+  "other_tracked_sources_unchanged": 185,
+  "lesson10_unchanged_files": 426,
+  "keil_group_include_paths_and_board_boundary_valid": true,
+  "existing_ide_state_retained_and_excluded_from_delivery": {
+    "MDK-ARM\\EC-S100-SmartWatch.uvguix.A": "81A8ADC9627B0AA0120D6A329F7E6FA9F097463B9C01A1280AF869CF27F8AC70",
+    "MDK-ARM\\EC-S100-SmartWatch.uvoptx": "8F5389DAC2A40C98BC07C8B1F3ED1F3E4253CB71BD6A82406118661A7147A3D5"
+  },
+  "ppt_files_unchanged": [
+    "第10-11课-板级资源映射与语义接口-V4追加版-20260913.pptx",
+    "第11课-board初始化与板级语义接口-20260913.pptx"
+  ]
+}

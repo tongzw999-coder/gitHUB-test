@@ -1,0 +1,1 @@
+FAIL tests/host/test_app_boot.c:62: writes == 3u && service_manager_count() == 2u

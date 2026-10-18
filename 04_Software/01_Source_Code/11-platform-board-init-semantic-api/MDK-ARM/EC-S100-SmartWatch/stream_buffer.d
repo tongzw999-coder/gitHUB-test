@@ -1,0 +1,14 @@
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+ec-s100-smartwatch\stream_buffer.o: C:\Keil_v5\ARM\ARM-COMPLIER-506\Bin\..\include\stdint.h
+ec-s100-smartwatch\stream_buffer.o: C:\Keil_v5\ARM\ARM-COMPLIER-506\Bin\..\include\string.h
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ec-s100-smartwatch\stream_buffer.o: C:\Keil_v5\ARM\ARM-COMPLIER-506\Bin\..\include\stddef.h
+ec-s100-smartwatch\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+ec-s100-smartwatch\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h

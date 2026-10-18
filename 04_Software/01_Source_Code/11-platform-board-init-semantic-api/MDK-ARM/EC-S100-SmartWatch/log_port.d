@@ -1,0 +1,9 @@
+ec-s100-smartwatch\log_port.o: ../04_Impl/impl_service_port/log_port/log_port.c
+ec-s100-smartwatch\log_port.o: ../04_Impl/impl_service_port/log_port/log_port.h
+ec-s100-smartwatch\log_port.o: ../03_Platform/platform_common/platform_def.h
+ec-s100-smartwatch\log_port.o: ../03_Platform/platform_common/platform_type.h
+ec-s100-smartwatch\log_port.o: ../04_Impl/impl_board/board_types.h
+ec-s100-smartwatch\log_port.o: ../05_Vendor/SEGGER/RTT/SEGGER_RTT.h
+ec-s100-smartwatch\log_port.o: ../05_Vendor/SEGGER/RTT/SEGGER_RTT_Conf.h
+ec-s100-smartwatch\log_port.o: C:\Keil_v5\ARM\ARM-COMPLIER-506\Bin\..\include\stdlib.h
+ec-s100-smartwatch\log_port.o: C:\Keil_v5\ARM\ARM-COMPLIER-506\Bin\..\include\stdarg.h

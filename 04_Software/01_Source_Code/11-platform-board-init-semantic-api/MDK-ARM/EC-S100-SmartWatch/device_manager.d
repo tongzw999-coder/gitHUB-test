@@ -1,0 +1,9 @@
+ec-s100-smartwatch\device_manager.o: ../03_Platform/platform_common/device_manager.c
+ec-s100-smartwatch\device_manager.o: ../03_Platform/platform_common/device_manager.h
+ec-s100-smartwatch\device_manager.o: ../03_Platform/platform_common/platform_device.h
+ec-s100-smartwatch\device_manager.o: ../03_Platform/platform_common/platform_object.h
+ec-s100-smartwatch\device_manager.o: ../03_Platform/platform_common/platform_lifecycle.h
+ec-s100-smartwatch\device_manager.o: ../03_Platform/platform_common/platform_error.h
+ec-s100-smartwatch\device_manager.o: ../03_Platform/platform_common/platform_type.h
+ec-s100-smartwatch\device_manager.o: ../04_Impl/impl_board/board_types.h
+ec-s100-smartwatch\device_manager.o: ../03_Platform/platform_common/platform_def.h

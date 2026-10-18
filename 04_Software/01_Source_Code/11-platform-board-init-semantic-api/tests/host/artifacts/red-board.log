@@ -1,0 +1,2 @@
+PASS board before_init
+FAIL tests/host/test_board_control.c:72: board_init() == PLATFORM_ERR_OK

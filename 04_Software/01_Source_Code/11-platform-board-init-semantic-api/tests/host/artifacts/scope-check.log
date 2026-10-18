@@ -1,0 +1,10 @@
+PASS lesson10 SHA256: 426 files, 0 changes
+PASS baseline copy: 194 unchanged retained files; exactly 6 modified files
+  MODIFIED 01_App\app_boot\app_boot.c
+  MODIFIED 01_App\app_boot\app_boot.h
+  MODIFIED 03_Config\platform_mcu_config.h
+  MODIFIED 04_Impl\impl_board\board_resource_config.c
+  MODIFIED 04_Impl\impl_mcu\stm32f411_plat_gpio.c
+  MODIFIED MDK-ARM\EC-S100-SmartWatch.uvprojx
+PASS Keil XML: existing group/include order preserved, all files exist, Board entries unique
+PASS Board boundary: no HAL/physical pins; no .git or Keil user option state

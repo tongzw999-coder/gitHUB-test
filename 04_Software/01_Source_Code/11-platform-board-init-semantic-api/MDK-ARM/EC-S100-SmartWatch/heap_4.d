@@ -1,0 +1,13 @@
+ec-s100-smartwatch\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+ec-s100-smartwatch\heap_4.o: C:\Keil_v5\ARM\ARM-COMPLIER-506\Bin\..\include\stdlib.h
+ec-s100-smartwatch\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ec-s100-smartwatch\heap_4.o: C:\Keil_v5\ARM\ARM-COMPLIER-506\Bin\..\include\stddef.h
+ec-s100-smartwatch\heap_4.o: C:\Keil_v5\ARM\ARM-COMPLIER-506\Bin\..\include\stdint.h
+ec-s100-smartwatch\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+ec-s100-smartwatch\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ec-s100-smartwatch\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ec-s100-smartwatch\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ec-s100-smartwatch\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+ec-s100-smartwatch\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ec-s100-smartwatch\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ec-s100-smartwatch\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

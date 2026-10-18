@@ -1,0 +1,28 @@
+PASS Board split: one board-specific configuration per Keil target, common interface, and separate init/control
+PASS board before_init
+PASS board init_order_idempotent
+PASS board polarity_and_delay
+PASS board invalid_enable
+PASS board init_failure_1
+PASS board init_failure_2
+PASS board init_failure_3
+PASS board reset_failure_1
+PASS board reset_failure_2
+PASS board action_failure_0
+PASS board action_failure_1
+PASS board action_failure_2
+PASS board action_failure_3
+PASS: 13 board scenarios
+PASS private mapping validation BAD_POWER=0
+PASS private mapping validation BAD_POWER=1
+PASS private mapping validation BAD_POWER=2
+PASS private mapping validation BAD_POWER=3
+PASS real MCU descriptors CH1..CH6 and GPIO capability checks
+PASS: 4 mapping fixtures and 1 real MCU descriptor suite
+PASS app_boot failure_stage=0
+PASS app_boot failure_stage=1
+PASS app_boot failure_stage=2
+PASS app_boot failure_stage=3
+PASS: 4 real app_boot integration scenarios
+PASS app_boot failure_stage=0
+PASS: unchanged App follows swapped board key channels

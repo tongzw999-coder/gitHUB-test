@@ -1,0 +1,13 @@
+ec-s100-smartwatch\board_control.o: ../04_Impl/impl_board/board_control.c
+ec-s100-smartwatch\board_control.o: ../03_Platform/platform_bsp/board_control.h
+ec-s100-smartwatch\board_control.o: ../03_Platform/platform_common/platform_error.h
+ec-s100-smartwatch\board_control.o: ../03_Platform/platform_common/platform_type.h
+ec-s100-smartwatch\board_control.o: ../04_Impl/impl_board/board_types.h
+ec-s100-smartwatch\board_control.o: ../04_Impl/impl_board/board_internal.h
+ec-s100-smartwatch\board_control.o: ../04_Impl/impl_board/board_resource_config.h
+ec-s100-smartwatch\board_control.o: ../03_Config/platform_mcu_config.h
+ec-s100-smartwatch\board_control.o: ../03_Platform/platform_mcu/plat_gpio.h
+ec-s100-smartwatch\board_control.o: ../03_Platform/platform_common/platform_def.h
+ec-s100-smartwatch\board_control.o: ../03_Platform/platform_mcu/plat_tick.h
+ec-s100-smartwatch\board_control.o: ../03_Platform/platform_mcu/plat_uart.h
+ec-s100-smartwatch\board_control.o: C:\Keil_v5\ARM\ARM-COMPLIER-506\Bin\..\include\stddef.h

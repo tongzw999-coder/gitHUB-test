@@ -1,0 +1,147 @@
+{
+  "scope": "12 lesson-11 C/H files; not a full MISRA audit",
+  "files": [
+    {
+      "file": "03_Platform/platform_bsp/board_control.h",
+      "lines": 90,
+      "max_width": 80,
+      "documented_functions": [
+        "board_init",
+        "board_backlight_on",
+        "board_backlight_off",
+        "board_display_reset",
+        "board_motor_enable"
+      ]
+    },
+    {
+      "file": "04_Impl/impl_board/board_control.c",
+      "lines": 349,
+      "max_width": 80,
+      "documented_functions": [
+        "board_init",
+        "board_backlight_on",
+        "board_backlight_off",
+        "board_display_reset",
+        "board_motor_enable",
+        "board_power_set_active",
+        "board_pin_set_active"
+      ]
+    },
+    {
+      "file": "03_Config/platform_mcu_config.h",
+      "lines": 72,
+      "max_width": 79,
+      "documented_functions": []
+    },
+    {
+      "file": "04_Impl/impl_mcu/stm32f411_plat_gpio.c",
+      "lines": 243,
+      "max_width": 80,
+      "documented_functions": [
+        "plat_gpio_write",
+        "plat_gpio_read",
+        "stm32f411_gpio_get_desc"
+      ]
+    },
+    {
+      "file": "04_Impl/impl_board/board_resource_config.c",
+      "lines": 553,
+      "max_width": 79,
+      "documented_functions": []
+    },
+    {
+      "file": "01_App/app_boot/app_boot.c",
+      "lines": 377,
+      "max_width": 79,
+      "documented_functions": [
+        "app_boot_init",
+        "app_boot_get_data",
+        "app_boot_services_init",
+        "app_boot_services_register",
+        "app_boot_runtime_start",
+        "app_boot_mcu_probe",
+        "app_boot_update_data"
+      ]
+    },
+    {
+      "file": "01_App/app_boot/app_boot.h",
+      "lines": 69,
+      "max_width": 79,
+      "documented_functions": [
+        "app_boot_init",
+        "app_boot_get_data"
+      ]
+    },
+    {
+      "file": "tests/host/test_board_control.c",
+      "lines": 312,
+      "max_width": 80,
+      "documented_functions": [
+        "plat_gpio_write",
+        "plat_delay_ms",
+        "expect_event",
+        "clear_events",
+        "expect_not_ready",
+        "expect_safe_init",
+        "main"
+      ]
+    },
+    {
+      "file": "tests/host/test_board_validation.c",
+      "lines": 263,
+      "max_width": 80,
+      "documented_functions": [
+        "plat_gpio_write",
+        "plat_delay_ms",
+        "main"
+      ]
+    },
+    {
+      "file": "tests/host/test_mcu_gpio.c",
+      "lines": 164,
+      "max_width": 79,
+      "documented_functions": [
+        "HAL_GPIO_WritePin",
+        "HAL_GPIO_ReadPin",
+        "main"
+      ]
+    },
+    {
+      "file": "tests/host/test_app_boot.c",
+      "lines": 282,
+      "max_width": 79,
+      "documented_functions": [
+        "log_port_init",
+        "log_port_set_output_enabled",
+        "log_port_set_level",
+        "log_port_write",
+        "plat_gpio_write",
+        "plat_gpio_read",
+        "plat_tick_get_ms",
+        "plat_delay_ms",
+        "main"
+      ]
+    },
+    {
+      "file": "tests/host/fakes/stm32f4xx_hal.h",
+      "lines": 84,
+      "max_width": 80,
+      "documented_functions": [
+        "HAL_GPIO_WritePin",
+        "HAL_GPIO_ReadPin"
+      ]
+    }
+  ],
+  "resource_data": [
+    {
+      "file": "03_Config/platform_mcu_config.h",
+      "noncomment_tokens_unchanged": true
+    },
+    {
+      "file": "04_Impl/impl_board/board_resource_config.c",
+      "noncomment_tokens_unchanged": true
+    }
+  ],
+  "findings": [],
+  "passed": true
+}
